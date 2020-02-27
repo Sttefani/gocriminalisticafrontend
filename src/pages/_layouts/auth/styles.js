@@ -4,7 +4,7 @@ import { darken } from 'polished';
 export const Wrapper = styled.div`
 
   height:100%;
-  background: linear-gradient(-90deg, #7159c1, #ab59c1);
+  background: linear-gradient(-90deg, #fFFF, #807e7a);
   display: flex;
   flex-direction:column;
   justify-content:center;
@@ -32,6 +32,12 @@ export const Content = styled.div`
   &::placeholder{
     color: rgba(255, 255, 255, 0.9);
   }
+}
+span {
+  color: #DC143C;
+  align-self: flex-start;
+  margin: 0 0 10px;
+  font-weight:bold;
 }
 button {
   margin:5px 0 0;

@@ -1,8 +1,12 @@
 import { createGlobalStyle } from 'styled-components';
 
 
-export default createGlobalStyle`
+import 'react-perfect-scrollbar/dist/css/styles.css';
 
+import 'react-toastify/dist/ReactToastify.css';
+
+
+export default createGlobalStyle`
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
 
 * {
@@ -14,7 +18,7 @@ export default createGlobalStyle`
 *:focus{
   outline:0;
 }
-html, body, #root{
+html, body, #root {
   height:100%;
 }
 body {
