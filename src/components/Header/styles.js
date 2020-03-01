@@ -51,7 +51,7 @@ export const Profile = styled.div`
       color:#333;
     }
 
-    a{
+    a {
       display: block;
       margin-top:2px;
       font-size: 12px;
@@ -60,6 +60,7 @@ export const Profile = styled.div`
 
   }
   img{
+      width:45px;
       height: 45px;
       border-radius: 50%;
     }

@@ -24,6 +24,11 @@ return produce(state, draft => {
       draft.loading = false;
       break;
     }
+    case '@auth/SIGN_OUT':{
+      draft.token = null;
+      draft.signed = false;
+      break;
+    }
     default:
   }
   })
